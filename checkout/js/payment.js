@@ -134,7 +134,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const infoDiv = document.createElement('div');
             infoDiv.className = 'text-center text-sm text-gray-600 mt-2';
             infoDiv.innerHTML = `
-                <p class="font-medium text-green-600 mb-1">✅ QR Code REAL gerado!</p>
+                <p class="font-medium text-green-600 mb-1">✅ QR Code gerado!</p>
                 <p>Escaneie com seu app bancário para pagar R$ 61,90</p>
             `;
             qrContainer.appendChild(infoDiv);

